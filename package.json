@@ -16,6 +16,6 @@
     "start": "microbundle watch src/entry/*.ts",
     "test": "jest",
     "lint": "xo --fix --prettier",
-    "prepublish": "npm run lint && npm run build"
+    "prepublish": "npm run build"
   }
 }

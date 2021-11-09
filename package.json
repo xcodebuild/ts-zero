@@ -12,8 +12,8 @@
     "xo": "^0.46.4"
   },
   "scripts": {
-    "build": "microbundle build src/entry/*.ts --no-compressin",
-    "start": "NODE_ENV=development microbundle watch src/entry/*.ts --no-compressin",
+    "build": "microbundle build src/entry/*.ts -no-compress",
+    "start": "NODE_ENV=development microbundle watch src/entry/*.ts -no-compress",
     "test": "jest",
     "lint": "xo --fix --prettier",
     "prepublish": "npm run build"

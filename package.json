@@ -13,7 +13,7 @@
   },
   "scripts": {
     "build": "microbundle build src/entry/*.ts",
-    "start": "NODE_ENV=development microbundle watch src/entry/*.ts",
+    "start": "NODE_ENV=development microbundle watch src/entry/*.ts --no-compressin",
     "test": "jest",
     "lint": "xo --fix --prettier",
     "prepublish": "npm run build"
